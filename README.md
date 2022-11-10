@@ -1,5 +1,5 @@
 # ComputerControllingAndDetailsDetectionSystemWithSpeechReconization-OperatingSystems
-Computer Controlling And Details Detection System With Speech Reconization is my 4th semister project of "Operating System" course
+Computer Controlling And Details Detection System With Speech Reconization is my 4th semester project of "Operating System" course
 
 ![1](https://user-images.githubusercontent.com/113015136/201154834-3492094b-19d6-4b15-81b6-45027f873e2b.PNG)
 ![2](https://user-images.githubusercontent.com/113015136/201154853-dd15223e-c0c9-42b7-adb3-6bb9eb85df66.PNG)
