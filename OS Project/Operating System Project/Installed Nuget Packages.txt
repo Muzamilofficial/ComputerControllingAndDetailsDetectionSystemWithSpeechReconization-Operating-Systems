@@ -1,0 +1,11 @@
+************************* Circular Progress Bar -Version 2.2.0 *************************
+Install-Package CircularProgressBar -Version 2.2.0
+
+************************* Google Cloud Speech *************************
+Install-Package Google.Cloud.Speech.V1 -Version 1.1.0
+
+************************* Google Cloud Lnaguage ************************* 
+Install-Package Google.Cloud.Language.V1 -Version 1.3.0
+
+************************* NAudio ************************* 
+Install-Package NAudio -Version 1.10.0

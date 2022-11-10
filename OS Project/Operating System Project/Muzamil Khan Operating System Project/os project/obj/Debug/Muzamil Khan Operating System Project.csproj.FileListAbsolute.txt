@@ -1,0 +1,237 @@
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Muzamil Khan Operating System Project.exe.config
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil Khan Operating System Project.csprojResolveAssemblyReference.cache
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.Form1.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.Properties.Resources.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil Khan Operating System Project.csproj.GenerateResource.Cache
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Muzamil Khan Operating System Project.exe
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Muzamil Khan Operating System Project.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\MetroFramework.Design.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\MetroFramework.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil Khan Operating System Project.exe
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil Khan Operating System Project.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\CircularProgressBar.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\WinFormAnimation.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\CircularProgressBar.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\WinFormAnimation.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Auth.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Core.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Speech.v1.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Storage.v1.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Auth.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Core.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Core.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Speech.v1.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Speech.v1.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Storage.v1.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Storage.v1.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\grpc_csharp_ext.x86.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\grpc_csharp_ext.x64.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\libgrpc_csharp_ext.x86.so
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\libgrpc_csharp_ext.x64.so
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\libgrpc_csharp_ext.x86.dylib
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\libgrpc_csharp_ext.x64.dylib
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.CommonProtos.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.Gax.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.Gax.Grpc.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Cloud.Language.V1.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Cloud.Speech.V1.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.LongRunning.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Protobuf.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Auth.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Core.Api.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Core.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\NAudio.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\System.Interactive.Async.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.CommonProtos.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.CommonProtos.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.Gax.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.Gax.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.Gax.Grpc.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.Gax.Grpc.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Cloud.Language.V1.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Cloud.Language.V1.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Cloud.Speech.V1.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Cloud.Speech.V1.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.LongRunning.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.LongRunning.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Protobuf.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Protobuf.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Auth.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Auth.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Core.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Core.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Core.Api.pdb
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Core.Api.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\NAudio.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\System.Interactive.Async.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formModal.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formDashboard.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formCreateFile.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formFileExplorer.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formFileBrowser.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formCPUProcessingSpeed.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formFileDetailSystem.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formDetailsOfCurrentProject.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formDirectoryDetailsOfCurrentProject.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formSizeOfCurrentProject.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formWifiHistory.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formAddFace.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.FaceDetection.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Emgu.CV.UI.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Emgu.CV.UI.GL.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Emgu.CV.World.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\FaceRecognition.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\OpenTK.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\OpenTK.GLControl.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\ZedGraph.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Emgu.CV.UI.GL.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Emgu.CV.World.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\OpenTK.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\OpenTK.GLControl.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\ZedGraph.xml
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formProcess.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.WIFIProperties.resources
+C:\Users\Dw\Desktop\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formWebBrowser.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Muzamil Khan Operating System Project.exe.config
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil Khan Operating System Project.exe
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil Khan Operating System Project.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\grpc_csharp_ext.x86.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\grpc_csharp_ext.x64.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\libgrpc_csharp_ext.x86.so
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\libgrpc_csharp_ext.x64.so
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\libgrpc_csharp_ext.x86.dylib
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\libgrpc_csharp_ext.x64.dylib
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Muzamil Khan Operating System Project.exe
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Muzamil Khan Operating System Project.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\CircularProgressBar.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Emgu.CV.UI.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Emgu.CV.UI.GL.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Emgu.CV.World.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.CommonProtos.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.Gax.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.Gax.Grpc.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Auth.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Core.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.PlatformServices.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Speech.v1.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Storage.v1.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Cloud.Language.V1.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Cloud.Speech.V1.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.LongRunning.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Protobuf.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Auth.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Core.Api.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Core.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\MetroFramework.Design.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\MetroFramework.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\MetroFramework.Fonts.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\NAudio.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Newtonsoft.Json.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\OpenTK.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\OpenTK.GLControl.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\System.Interactive.Async.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\WinFormAnimation.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\ZedGraph.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\CircularProgressBar.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Emgu.CV.UI.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Emgu.CV.UI.GL.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Emgu.CV.World.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.CommonProtos.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.CommonProtos.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.Gax.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.Gax.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.Gax.Grpc.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Api.Gax.Grpc.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Auth.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Auth.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Core.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Core.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Speech.v1.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Speech.v1.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Storage.v1.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Apis.Storage.v1.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Cloud.Language.V1.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Cloud.Language.V1.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Cloud.Speech.V1.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Cloud.Speech.V1.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.LongRunning.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.LongRunning.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Protobuf.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Google.Protobuf.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Auth.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Auth.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Core.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Core.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Core.Api.pdb
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Grpc.Core.Api.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\NAudio.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Newtonsoft.Json.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\OpenTK.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\OpenTK.GLControl.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\System.Interactive.Async.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\WinFormAnimation.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\ZedGraph.xml
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\de\ZedGraph.resources.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\es\ZedGraph.resources.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\fr\ZedGraph.resources.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\hu\ZedGraph.resources.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\it\ZedGraph.resources.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\ja\ZedGraph.resources.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\pt\ZedGraph.resources.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\ru\ZedGraph.resources.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\sk\ZedGraph.resources.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\sv\ZedGraph.resources.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\tr\ZedGraph.resources.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil Khan Operating System Project.csprojResolveAssemblyReference.cache
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.Form1.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formAddFace.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formCPUProcessingSpeed.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formCreateFile.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formDashboard.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formDetailsOfCurrentProject.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formDirectoryDetailsOfCurrentProject.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.FaceDetection.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formFileBrowser.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formFileExplorer.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formModal.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formFileDetailSystem.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formProcess.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formSizeOfCurrentProject.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formWebBrowser.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.formWifiHistory.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.WIFIProperties.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil_Khan_Operating_System_Project.Properties.Resources.resources
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil Khan Operating System Project.csproj.GenerateResource.Cache
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Muzamil Khan Operating System Project.exe.manifest
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\bin\Debug\Muzamil Khan Operating System Project.application
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil Khan Operating System Project.exe.manifest
+E:\4th Semister\Operating System Theory\OS Project\Operating System Project\Muzamil Khan Operating System Project\Muzamil Khan Operating System Project\obj\Debug\Muzamil Khan Operating System Project.application

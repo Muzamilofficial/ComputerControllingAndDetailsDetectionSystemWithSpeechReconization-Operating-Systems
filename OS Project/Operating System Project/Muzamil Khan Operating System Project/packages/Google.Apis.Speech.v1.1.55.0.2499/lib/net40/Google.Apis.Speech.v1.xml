@@ -1,0 +1,1432 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Google.Apis.Speech.v1</name>
+    </assembly>
+    <members>
+        <member name="T:Google.Apis.Speech.v1.SpeechService">
+            <summary>The Speech Service.</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.SpeechService.Version">
+            <summary>The API version.</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.SpeechService.DiscoveryVersionUsed">
+            <summary>The discovery version used to generate this service.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.SpeechService.#ctor">
+            <summary>Constructs a new service.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.SpeechService.#ctor(Google.Apis.Services.BaseClientService.Initializer)">
+            <summary>Constructs a new service.</summary>
+            <param name="initializer">The service initializer.</param>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechService.Features">
+            <summary>Gets the service supported features.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechService.Name">
+            <summary>Gets the service name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechService.BaseUri">
+            <summary>Gets the service base URI.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechService.BasePath">
+            <summary>Gets the service base path.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.SpeechService.Scope">
+            <summary>Available OAuth 2.0 scopes for use with the Cloud Speech-to-Text API.</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.SpeechService.Scope.CloudPlatform">
+            <summary>
+            See, edit, configure, and delete your Google Cloud data and see the email address for your Google
+            Account.
+            </summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.SpeechService.ScopeConstants">
+            <summary>Available OAuth 2.0 scope constants for use with the Cloud Speech-to-Text API.</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.SpeechService.ScopeConstants.CloudPlatform">
+            <summary>
+            See, edit, configure, and delete your Google Cloud data and see the email address for your Google
+            Account.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechService.Operations">
+            <summary>Gets the Operations resource.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechService.Projects">
+            <summary>Gets the Projects resource.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechService.Speech">
+            <summary>Gets the Speech resource.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1">
+            <summary>A base abstract class for Speech requests.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new SpeechBaseServiceRequest instance.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.Xgafv">
+            <summary>V1 error format.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.XgafvEnum">
+            <summary>V1 error format.</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.XgafvEnum.Value1">
+            <summary>v1 error format</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.XgafvEnum.Value2">
+            <summary>v2 error format</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.AccessToken">
+            <summary>OAuth access token.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.Alt">
+            <summary>Data format for response.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.AltEnum">
+            <summary>Data format for response.</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.AltEnum.Json">
+            <summary>Responses with Content-Type of application/json</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.AltEnum.Media">
+            <summary>Media download with context-dependent Content-Type</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.AltEnum.Proto">
+            <summary>Responses with Content-Type of application/x-protobuf</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.Callback">
+            <summary>JSONP</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.Fields">
+            <summary>Selector specifying which fields to include in a partial response.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.Key">
+            <summary>
+            API key. Your API key identifies your project and provides you with API access, quota, and reports. Required
+            unless you provide an OAuth 2.0 token.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.OauthToken">
+            <summary>OAuth 2.0 token for the current user.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.PrettyPrint">
+            <summary>Returns response with indentations and line breaks.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.QuotaUser">
+            <summary>
+            Available to use for quota purposes for server-side applications. Can be any arbitrary string assigned to a
+            user, but should not exceed 40 characters.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.UploadType">
+            <summary>Legacy upload protocol for media (e.g. "media", "multipart").</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.UploadProtocol">
+            <summary>Upload protocol for media (e.g. "raw", "multipart").</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.SpeechBaseServiceRequest`1.InitParameters">
+            <summary>Initializes Speech parameter list.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.OperationsResource">
+            <summary>The "operations" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.OperationsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.OperationsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.OperationsResource.Get(System.String)">
+            <summary>
+            Gets the latest state of a long-running operation. Clients can use this method to poll the operation result
+            at intervals as recommended by the API service.
+            </summary>
+            <param name="name">The name of the operation resource.</param>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.OperationsResource.GetRequest">
+            <summary>
+            Gets the latest state of a long-running operation. Clients can use this method to poll the operation result
+            at intervals as recommended by the API service.
+            </summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.OperationsResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.String)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.OperationsResource.GetRequest.Name">
+            <summary>The name of the operation resource.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.OperationsResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.OperationsResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.OperationsResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.OperationsResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.OperationsResource.List">
+            <summary>
+            Lists operations that match the specified filter in the request. If the server doesn't support this method,
+            it returns `UNIMPLEMENTED`. NOTE: the `name` binding allows API services to override the binding to use
+            different resource name schemes, such as `users/*/operations`. To override the binding, API services can add
+            a binding such as `"/v1/{name=users/*}/operations"` to their service configuration. For backwards
+            compatibility, the default name includes the operations collection id, however overriding users must ensure
+            the name binding is the parent resource, without the operations collection id.
+            </summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.OperationsResource.ListRequest">
+            <summary>
+            Lists operations that match the specified filter in the request. If the server doesn't support this method,
+            it returns `UNIMPLEMENTED`. NOTE: the `name` binding allows API services to override the binding to use
+            different resource name schemes, such as `users/*/operations`. To override the binding, API services can add
+            a binding such as `"/v1/{name=users/*}/operations"` to their service configuration. For backwards
+            compatibility, the default name includes the operations collection id, however overriding users must ensure
+            the name binding is the parent resource, without the operations collection id.
+            </summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.OperationsResource.ListRequest.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new List request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.OperationsResource.ListRequest.Filter">
+            <summary>The standard list filter.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.OperationsResource.ListRequest.Name">
+            <summary>The name of the operation's parent resource.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.OperationsResource.ListRequest.PageSize">
+            <summary>The standard list page size.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.OperationsResource.ListRequest.PageToken">
+            <summary>The standard list page token.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.OperationsResource.ListRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.OperationsResource.ListRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.OperationsResource.ListRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.OperationsResource.ListRequest.InitParameters">
+            <summary>Initializes List parameter list.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.ProjectsResource">
+            <summary>The "projects" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.ProjectsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.Locations">
+            <summary>Gets the Locations resource.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.ProjectsResource.LocationsResource">
+            <summary>The "locations" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClasses">
+            <summary>Gets the CustomClasses resource.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource">
+            <summary>The "customClasses" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.Create(Google.Apis.Speech.v1.Data.CreateCustomClassRequest,System.String)">
+            <summary>Create a custom class.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="parent">
+            Required. The parent resource where this custom class will be created. Format:
+            {api_version}/projects/{project}/locations/{location}/customClasses
+            </param>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.CreateRequest">
+            <summary>Create a custom class.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.CreateRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.Speech.v1.Data.CreateCustomClassRequest,System.String)">
+            <summary>Constructs a new Create request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.CreateRequest.Parent">
+            <summary>
+            Required. The parent resource where this custom class will be created. Format:
+            {api_version}/projects/{project}/locations/{location}/customClasses
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.CreateRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.CreateRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.CreateRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.CreateRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.CreateRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.CreateRequest.InitParameters">
+            <summary>Initializes Create parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.Delete(System.String)">
+            <summary>Delete a custom class.</summary>
+            <param name="name">
+            Required. The name of the custom class to delete. Format:
+            {api_version}/projects/{project}/locations/{location}/customClasses/{custom_class}
+            </param>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.DeleteRequest">
+            <summary>Delete a custom class.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.DeleteRequest.#ctor(Google.Apis.Services.IClientService,System.String)">
+            <summary>Constructs a new Delete request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.DeleteRequest.Name">
+            <summary>
+            Required. The name of the custom class to delete. Format:
+            {api_version}/projects/{project}/locations/{location}/customClasses/{custom_class}
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.DeleteRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.DeleteRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.DeleteRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.DeleteRequest.InitParameters">
+            <summary>Initializes Delete parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.Get(System.String)">
+            <summary>Get a custom class.</summary>
+            <param name="name">
+            Required. The name of the custom class to retrieve. Format:
+            {api_version}/projects/{project}/locations/{location}/customClasses/{custom_class}
+            </param>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.GetRequest">
+            <summary>Get a custom class.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.String)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.GetRequest.Name">
+            <summary>
+            Required. The name of the custom class to retrieve. Format:
+            {api_version}/projects/{project}/locations/{location}/customClasses/{custom_class}
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.List(System.String)">
+            <summary>List custom classes.</summary>
+            <param name="parent">
+            Required. The parent, which owns this collection of custom classes. Format:
+            {api_version}/projects/{project}/locations/{location}/customClasses
+            </param>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.ListRequest">
+            <summary>List custom classes.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.ListRequest.#ctor(Google.Apis.Services.IClientService,System.String)">
+            <summary>Constructs a new List request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.ListRequest.Parent">
+            <summary>
+            Required. The parent, which owns this collection of custom classes. Format:
+            {api_version}/projects/{project}/locations/{location}/customClasses
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.ListRequest.PageSize">
+            <summary>
+            The maximum number of custom classes to return. The service may return fewer than this value. If
+            unspecified, at most 50 custom classes will be returned. The maximum value is 1000; values above
+            1000 will be coerced to 1000.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.ListRequest.PageToken">
+            <summary>
+            A page token, received from a previous `ListCustomClass` call. Provide this to retrieve the
+            subsequent page. When paginating, all other parameters provided to `ListCustomClass` must match
+            the call that provided the page token.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.ListRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.ListRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.ListRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.ListRequest.InitParameters">
+            <summary>Initializes List parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.Patch(Google.Apis.Speech.v1.Data.CustomClass,System.String)">
+            <summary>Update a custom class.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="name">The resource name of the custom class.</param>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.PatchRequest">
+            <summary>Update a custom class.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.PatchRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.Speech.v1.Data.CustomClass,System.String)">
+            <summary>Constructs a new Patch request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.PatchRequest.Name">
+            <summary>The resource name of the custom class.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.PatchRequest.UpdateMask">
+            <summary>The list of fields to be updated.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.PatchRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.PatchRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.PatchRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.PatchRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.PatchRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.CustomClassesResource.PatchRequest.InitParameters">
+            <summary>Initializes Patch parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSets">
+            <summary>Gets the PhraseSets resource.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource">
+            <summary>The "phraseSets" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.Create(Google.Apis.Speech.v1.Data.CreatePhraseSetRequest,System.String)">
+            <summary>
+            Create a set of phrase hints. Each item in the set can be a single word or a multi-word phrase. The
+            items in the PhraseSet are favored by the recognition model when you send a call that includes the
+            PhraseSet.
+            </summary>
+            <param name="body">The body of the request.</param>
+            <param name="parent">
+            Required. The parent resource where this phrase set will be created. Format:
+            {api_version}/projects/{project}/locations/{location}/phraseSets
+            </param>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.CreateRequest">
+            <summary>
+            Create a set of phrase hints. Each item in the set can be a single word or a multi-word phrase. The
+            items in the PhraseSet are favored by the recognition model when you send a call that includes the
+            PhraseSet.
+            </summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.CreateRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.Speech.v1.Data.CreatePhraseSetRequest,System.String)">
+            <summary>Constructs a new Create request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.CreateRequest.Parent">
+            <summary>
+            Required. The parent resource where this phrase set will be created. Format:
+            {api_version}/projects/{project}/locations/{location}/phraseSets
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.CreateRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.CreateRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.CreateRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.CreateRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.CreateRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.CreateRequest.InitParameters">
+            <summary>Initializes Create parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.Delete(System.String)">
+            <summary>Delete a phrase set.</summary>
+            <param name="name">
+            Required. The name of the phrase set to delete. Format:
+            {api_version}/projects/{project}/locations/{location}/phraseSets/{phrase_set}
+            </param>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.DeleteRequest">
+            <summary>Delete a phrase set.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.DeleteRequest.#ctor(Google.Apis.Services.IClientService,System.String)">
+            <summary>Constructs a new Delete request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.DeleteRequest.Name">
+            <summary>
+            Required. The name of the phrase set to delete. Format:
+            {api_version}/projects/{project}/locations/{location}/phraseSets/{phrase_set}
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.DeleteRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.DeleteRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.DeleteRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.DeleteRequest.InitParameters">
+            <summary>Initializes Delete parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.Get(System.String)">
+            <summary>Get a phrase set.</summary>
+            <param name="name">
+            Required. The name of the phrase set to retrieve. Format:
+            {api_version}/projects/{project}/locations/{location}/phraseSets/{phrase_set}
+            </param>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.GetRequest">
+            <summary>Get a phrase set.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.String)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.GetRequest.Name">
+            <summary>
+            Required. The name of the phrase set to retrieve. Format:
+            {api_version}/projects/{project}/locations/{location}/phraseSets/{phrase_set}
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.List(System.String)">
+            <summary>List phrase sets.</summary>
+            <param name="parent">
+            Required. The parent, which owns this collection of phrase set. Format:
+            projects/{project}/locations/{location}
+            </param>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.ListRequest">
+            <summary>List phrase sets.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.ListRequest.#ctor(Google.Apis.Services.IClientService,System.String)">
+            <summary>Constructs a new List request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.ListRequest.Parent">
+            <summary>
+            Required. The parent, which owns this collection of phrase set. Format:
+            projects/{project}/locations/{location}
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.ListRequest.PageSize">
+            <summary>
+            The maximum number of phrase sets to return. The service may return fewer than this value. If
+            unspecified, at most 50 phrase sets will be returned. The maximum value is 1000; values above
+            1000 will be coerced to 1000.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.ListRequest.PageToken">
+            <summary>
+            A page token, received from a previous `ListPhraseSet` call. Provide this to retrieve the
+            subsequent page. When paginating, all other parameters provided to `ListPhraseSet` must match
+            the call that provided the page token.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.ListRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.ListRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.ListRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.ListRequest.InitParameters">
+            <summary>Initializes List parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.Patch(Google.Apis.Speech.v1.Data.PhraseSet,System.String)">
+            <summary>Update a phrase set.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="name">The resource name of the phrase set.</param>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.PatchRequest">
+            <summary>Update a phrase set.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.PatchRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.Speech.v1.Data.PhraseSet,System.String)">
+            <summary>Constructs a new Patch request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.PatchRequest.Name">
+            <summary>The resource name of the phrase set.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.PatchRequest.UpdateMask">
+            <summary>The list of fields to be updated.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.PatchRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.PatchRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.PatchRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.PatchRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.PatchRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.ProjectsResource.LocationsResource.PhraseSetsResource.PatchRequest.InitParameters">
+            <summary>Initializes Patch parameter list.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.SpeechResource">
+            <summary>The "speech" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.Speech.v1.SpeechResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.SpeechResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.SpeechResource.Longrunningrecognize(Google.Apis.Speech.v1.Data.LongRunningRecognizeRequest)">
+            <summary>
+            Performs asynchronous speech recognition: receive results via the google.longrunning.Operations interface.
+            Returns either an `Operation.error` or an `Operation.response` which contains a
+            `LongRunningRecognizeResponse` message. For more information on asynchronous speech recognition, see the
+            [how-to](https://cloud.google.com/speech-to-text/docs/async-recognize).
+            </summary>
+            <param name="body">The body of the request.</param>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.SpeechResource.LongrunningrecognizeRequest">
+            <summary>
+            Performs asynchronous speech recognition: receive results via the google.longrunning.Operations interface.
+            Returns either an `Operation.error` or an `Operation.response` which contains a
+            `LongRunningRecognizeResponse` message. For more information on asynchronous speech recognition, see the
+            [how-to](https://cloud.google.com/speech-to-text/docs/async-recognize).
+            </summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.SpeechResource.LongrunningrecognizeRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.Speech.v1.Data.LongRunningRecognizeRequest)">
+            <summary>Constructs a new Longrunningrecognize request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechResource.LongrunningrecognizeRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.SpeechResource.LongrunningrecognizeRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechResource.LongrunningrecognizeRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechResource.LongrunningrecognizeRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechResource.LongrunningrecognizeRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.SpeechResource.LongrunningrecognizeRequest.InitParameters">
+            <summary>Initializes Longrunningrecognize parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.SpeechResource.Recognize(Google.Apis.Speech.v1.Data.RecognizeRequest)">
+            <summary>
+            Performs synchronous speech recognition: receive results after all audio has been sent and processed.
+            </summary>
+            <param name="body">The body of the request.</param>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.SpeechResource.RecognizeRequest">
+            <summary>
+            Performs synchronous speech recognition: receive results after all audio has been sent and processed.
+            </summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.SpeechResource.RecognizeRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.Speech.v1.Data.RecognizeRequest)">
+            <summary>Constructs a new Recognize request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechResource.RecognizeRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.SpeechResource.RecognizeRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechResource.RecognizeRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechResource.RecognizeRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.SpeechResource.RecognizeRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.Speech.v1.SpeechResource.RecognizeRequest.InitParameters">
+            <summary>Initializes Recognize parameter list.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.ClassItem">
+            <summary>An item of the class.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.ClassItem.Value">
+            <summary>The class item's value.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.ClassItem.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.CreateCustomClassRequest">
+            <summary>Message sent by the client for the `CreateCustomClass` method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.CreateCustomClassRequest.CustomClass">
+            <summary>Required. The custom class to create.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.CreateCustomClassRequest.CustomClassId">
+            <summary>
+            Required. The ID to use for the custom class, which will become the final component of the custom class'
+            resource name. This value should be 4-63 characters, and valid characters are /a-z-/.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.CreateCustomClassRequest.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.CreatePhraseSetRequest">
+            <summary>Message sent by the client for the `CreatePhraseSet` method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.CreatePhraseSetRequest.PhraseSet">
+            <summary>Required. The phrase set to create.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.CreatePhraseSetRequest.PhraseSetId">
+            <summary>
+            Required. The ID to use for the phrase set, which will become the final component of the phrase set's
+            resource name. This value should be 4-63 characters, and valid characters are /a-z-/.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.CreatePhraseSetRequest.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.CustomClass">
+            <summary>
+            A set of words or phrases that represents a common concept likely to appear in your audio, for example a list of
+            passenger ship names. CustomClass items can be substituted into placeholders that you set in PhraseSet phrases.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.CustomClass.CustomClassId">
+            <summary>
+            If this custom class is a resource, the custom_class_id is the resource id of the CustomClass. Case
+            sensitive.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.CustomClass.Items">
+            <summary>A collection of class items.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.CustomClass.Name">
+            <summary>The resource name of the custom class.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.CustomClass.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.Empty">
+            <summary>
+            A generic empty message that you can re-use to avoid defining duplicated empty messages in your APIs. A typical
+            example is to use it as the request or the response type of an API method. For instance: service Foo { rpc
+            Bar(google.protobuf.Empty) returns (google.protobuf.Empty); } The JSON representation for `Empty` is empty JSON
+            object `{}`.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.Empty.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.ListCustomClassesResponse">
+            <summary>Message returned to the client by the `ListCustomClasses` method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.ListCustomClassesResponse.CustomClasses">
+            <summary>The custom classes.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.ListCustomClassesResponse.NextPageToken">
+            <summary>
+            A token, which can be sent as `page_token` to retrieve the next page. If this field is omitted, there are no
+            subsequent pages.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.ListCustomClassesResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.ListOperationsResponse">
+            <summary>The response message for Operations.ListOperations.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.ListOperationsResponse.NextPageToken">
+            <summary>The standard List next-page token.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.ListOperationsResponse.Operations">
+            <summary>A list of operations that matches the specified filter in the request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.ListOperationsResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.ListPhraseSetResponse">
+            <summary>Message returned to the client by the `ListPhraseSet` method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.ListPhraseSetResponse.NextPageToken">
+            <summary>
+            A token, which can be sent as `page_token` to retrieve the next page. If this field is omitted, there are no
+            subsequent pages.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.ListPhraseSetResponse.PhraseSets">
+            <summary>The phrase set.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.ListPhraseSetResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.LongRunningRecognizeMetadata">
+            <summary>
+            Describes the progress of a long-running `LongRunningRecognize` call. It is included in the `metadata` field of
+            the `Operation` returned by the `GetOperation` call of the `google::longrunning::Operations` service.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.LongRunningRecognizeMetadata.LastUpdateTime">
+            <summary>Time of the most recent processing update.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.LongRunningRecognizeMetadata.ProgressPercent">
+            <summary>
+            Approximate percentage of audio processed thus far. Guaranteed to be 100 when the audio is fully processed
+            and the results are available.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.LongRunningRecognizeMetadata.StartTime">
+            <summary>Time when the request was received.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.LongRunningRecognizeMetadata.Uri">
+            <summary>
+            Output only. The URI of the audio file being transcribed. Empty if the audio was sent as byte content.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.LongRunningRecognizeMetadata.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.LongRunningRecognizeRequest">
+            <summary>The top-level message sent by the client for the `LongRunningRecognize` method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.LongRunningRecognizeRequest.Audio">
+            <summary>Required. The audio data to be recognized.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.LongRunningRecognizeRequest.Config">
+            <summary>
+            Required. Provides information to the recognizer that specifies how to process the request.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.LongRunningRecognizeRequest.OutputConfig">
+            <summary>Optional. Specifies an optional destination for the recognition results.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.LongRunningRecognizeRequest.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.LongRunningRecognizeResponse">
+            <summary>
+            The only message returned to the client by the `LongRunningRecognize` method. It contains the result as zero or
+            more sequential `SpeechRecognitionResult` messages. It is included in the `result.response` field of the
+            `Operation` returned by the `GetOperation` call of the `google::longrunning::Operations` service.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.LongRunningRecognizeResponse.OutputConfig">
+            <summary>Original output config if present in the request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.LongRunningRecognizeResponse.OutputError">
+            <summary>If the transcript output fails this field contains the relevant error.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.LongRunningRecognizeResponse.Results">
+            <summary>Sequential list of transcription results corresponding to sequential portions of audio.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.LongRunningRecognizeResponse.TotalBilledTime">
+            <summary>When available, billed audio seconds for the corresponding request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.LongRunningRecognizeResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.Operation">
+            <summary>This resource represents a long-running operation that is the result of a network API call.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.Operation.Done">
+            <summary>
+            If the value is `false`, it means the operation is still in progress. If `true`, the operation is completed,
+            and either `error` or `response` is available.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.Operation.Error">
+            <summary>The error result of the operation in case of failure or cancellation.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.Operation.Metadata">
+            <summary>
+            Service-specific metadata associated with the operation. It typically contains progress information and
+            common metadata such as create time. Some services might not provide such metadata. Any method that returns
+            a long-running operation should document the metadata type, if any.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.Operation.Name">
+            <summary>
+            The server-assigned name, which is only unique within the same service that originally returns it. If you
+            use the default HTTP mapping, the `name` should be a resource name ending with `operations/{unique_id}`.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.Operation.Response">
+            <summary>
+            The normal response of the operation in case of success. If the original method returns no data on success,
+            such as `Delete`, the response is `google.protobuf.Empty`. If the original method is standard
+            `Get`/`Create`/`Update`, the response should be the resource. For other methods, the response should have
+            the type `XxxResponse`, where `Xxx` is the original method name. For example, if the original method name is
+            `TakeSnapshot()`, the inferred response type is `TakeSnapshotResponse`.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.Operation.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.Phrase">
+            <summary>
+            A phrases containing words and phrase "hints" so that the speech recognition is more likely to recognize them.
+            This can be used to improve the accuracy for specific words and phrases, for example, if specific commands are
+            typically spoken by the user. This can also be used to add additional words to the vocabulary of the recognizer.
+            See [usage limits](https://cloud.google.com/speech-to-text/quotas#content). List items can also include
+            pre-built or custom classes containing groups of words that represent common concepts that occur in natural
+            language. For example, rather than providing a phrase hint for every month of the year (e.g. "i was born in
+            january", "i was born in febuary", ...), use the pre-built `$MONTH` class improves the likelihood of correctly
+            transcribing audio that includes months (e.g. "i was born in $month"). To refer to pre-built classes, use the
+            class' symbol prepended with `$` e.g. `$MONTH`. To refer to custom classes that were defined inline in the
+            request, set the class's `custom_class_id` to a string unique to all class resources and inline classes. Then
+            use the class' id wrapped in $`{...}` e.g. "${my-months}". To refer to custom classes resources, use the class'
+            id wrapped in `${}` (e.g. `${my-months}`).
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.Phrase.Boost">
+            <summary>
+            Hint Boost. Overrides the boost set at the phrase set level. Positive value will increase the probability
+            that a specific phrase will be recognized over other similar sounding phrases. The higher the boost, the
+            higher the chance of false positive recognition as well. Negative boost will simply be ignored. Though
+            `boost` can accept a wide range of positive values, most use cases are best served with values between 0 and
+            20. We recommend using a binary search approach to finding the optimal value for your use case. Speech
+            recognition will skip PhraseSets with a boost value of 0.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.Phrase.Value">
+            <summary>The phrase itself.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.Phrase.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.PhraseSet">
+            <summary>Provides "hints" to the speech recognizer to favor specific words and phrases in the results.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.PhraseSet.Boost">
+            <summary>
+            Hint Boost. Positive value will increase the probability that a specific phrase will be recognized over
+            other similar sounding phrases. The higher the boost, the higher the chance of false positive recognition as
+            well. Negative boost values would correspond to anti-biasing. Anti-biasing is not enabled, so negative boost
+            will simply be ignored. Though `boost` can accept a wide range of positive values, most use cases are best
+            served with values between 0 (exclusive) and 20. We recommend using a binary search approach to finding the
+            optimal value for your use case. Speech recognition will skip PhraseSets with a boost value of 0.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.PhraseSet.Name">
+            <summary>The resource name of the phrase set.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.PhraseSet.Phrases">
+            <summary>A list of word and phrases.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.PhraseSet.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.RecognitionAudio">
+            <summary>
+            Contains audio data in the encoding specified in the `RecognitionConfig`. Either `content` or `uri` must be
+            supplied. Supplying both or neither returns google.rpc.Code.INVALID_ARGUMENT. See [content
+            limits](https://cloud.google.com/speech-to-text/quotas#content).
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionAudio.Content">
+            <summary>
+            The audio data bytes encoded as specified in `RecognitionConfig`. Note: as with all bytes fields, proto
+            buffers use a pure binary representation, whereas JSON representations use base64.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionAudio.Uri">
+            <summary>
+            URI that points to a file that contains audio data bytes as specified in `RecognitionConfig`. The file must
+            not be compressed (for example, gzip). Currently, only Google Cloud Storage URIs are supported, which must
+            be specified in the following format: `gs://bucket_name/object_name` (other URI formats return
+            google.rpc.Code.INVALID_ARGUMENT). For more information, see [Request
+            URIs](https://cloud.google.com/storage/docs/reference-uris).
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionAudio.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.RecognitionConfig">
+            <summary>Provides information to the recognizer that specifies how to process the request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.Adaptation">
+            <summary>
+            Speech adaptation configuration improves the accuracy of speech recognition. For more information, see the
+            [speech adaptation](https://cloud.google.com/speech-to-text/docs/adaptation) documentation. When speech
+            adaptation is set it supersedes the `speech_contexts` field.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.AlternativeLanguageCodes">
+            <summary>
+            A list of up to 3 additional [BCP-47](https://www.rfc-editor.org/rfc/bcp/bcp47.txt) language tags, listing
+            possible alternative languages of the supplied audio. See [Language
+            Support](https://cloud.google.com/speech-to-text/docs/languages) for a list of the currently supported
+            language codes. If alternative languages are listed, recognition result will contain recognition in the most
+            likely language detected including the main language_code. The recognition result will include the language
+            tag of the language detected in the audio. Note: This feature is only supported for Voice Command and Voice
+            Search use cases and performance may vary for other use cases (e.g., phone call transcription).
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.AudioChannelCount">
+            <summary>
+            The number of channels in the input audio data. ONLY set this for MULTI-CHANNEL recognition. Valid values
+            for LINEAR16 and FLAC are `1`-`8`. Valid values for OGG_OPUS are '1'-'254'. Valid value for MULAW, AMR,
+            AMR_WB and SPEEX_WITH_HEADER_BYTE is only `1`. If `0` or omitted, defaults to one channel (mono). Note: We
+            only recognize the first channel by default. To perform independent recognition on each channel set
+            `enable_separate_recognition_per_channel` to 'true'.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.DiarizationConfig">
+            <summary>
+            Config to enable speaker diarization and set additional parameters to make diarization better suited for
+            your application. Note: When this is enabled, we send all the words from the beginning of the audio for the
+            top alternative in every consecutive STREAMING responses. This is done in order to improve our speaker tags
+            as our models learn to identify the speakers in the conversation over time. For non-streaming requests, the
+            diarization results will be provided only in the top alternative of the FINAL SpeechRecognitionResult.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.EnableAutomaticPunctuation">
+            <summary>
+            If 'true', adds punctuation to recognition result hypotheses. This feature is only available in select
+            languages. Setting this for requests in other languages has no effect at all. The default 'false' value does
+            not add punctuation to result hypotheses.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.EnableSeparateRecognitionPerChannel">
+            <summary>
+            This needs to be set to `true` explicitly and `audio_channel_count` &amp;gt; 1 to get each channel
+            recognized separately. The recognition result will contain a `channel_tag` field to state which channel that
+            result belongs to. If this is not true, we will only recognize the first channel. The request is billed
+            cumulatively for all channels recognized: `audio_channel_count` multiplied by the length of the audio.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.EnableSpokenEmojis">
+            <summary>
+            The spoken emoji behavior for the call If not set, uses default behavior based on model of choice If 'true',
+            adds spoken emoji formatting for the request. This will replace spoken emojis with the corresponding Unicode
+            symbols in the final transcript. If 'false', spoken emojis are not replaced.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.EnableSpokenPunctuation">
+            <summary>
+            The spoken punctuation behavior for the call If not set, uses default behavior based on model of choice e.g.
+            command_and_search will enable spoken punctuation by default If 'true', replaces spoken punctuation with the
+            corresponding symbols in the request. For example, "how are you question mark" becomes "how are you?". See
+            https://cloud.google.com/speech-to-text/docs/spoken-punctuation for support. If 'false', spoken punctuation
+            is not replaced.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.EnableWordConfidence">
+            <summary>
+            If `true`, the top result includes a list of words and the confidence for those words. If `false`, no
+            word-level confidence information is returned. The default is `false`.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.EnableWordTimeOffsets">
+            <summary>
+            If `true`, the top result includes a list of words and the start and end time offsets (timestamps) for those
+            words. If `false`, no word-level time offset information is returned. The default is `false`.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.Encoding">
+            <summary>
+            Encoding of audio data sent in all `RecognitionAudio` messages. This field is optional for `FLAC` and `WAV`
+            audio files and required for all other audio formats. For details, see AudioEncoding.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.LanguageCode">
+            <summary>
+            Required. The language of the supplied audio as a [BCP-47](https://www.rfc-editor.org/rfc/bcp/bcp47.txt)
+            language tag. Example: "en-US". See [Language
+            Support](https://cloud.google.com/speech-to-text/docs/languages) for a list of the currently supported
+            language codes.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.MaxAlternatives">
+            <summary>
+            Maximum number of recognition hypotheses to be returned. Specifically, the maximum number of
+            `SpeechRecognitionAlternative` messages within each `SpeechRecognitionResult`. The server may return fewer
+            than `max_alternatives`. Valid values are `0`-`30`. A value of `0` or `1` will return a maximum of one. If
+            omitted, will return a maximum of one.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.Metadata">
+            <summary>Metadata regarding this request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.Model">
+            <summary>
+            Which model to select for the given request. Select the model best suited to your domain to get best
+            results. If a model is not explicitly specified, then we auto-select a model based on the parameters in the
+            RecognitionConfig. *Model* *Description* command_and_search Best for short queries such as voice commands or
+            voice search. phone_call Best for audio that originated from a phone call (typically recorded at an 8khz
+            sampling rate). video Best for audio that originated from video or includes multiple speakers. Ideally the
+            audio is recorded at a 16khz or greater sampling rate. This is a premium model that costs more than the
+            standard rate. default Best for audio that is not one of the specific audio models. For example, long-form
+            audio. Ideally the audio is high-fidelity, recorded at a 16khz or greater sampling rate.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.ProfanityFilter">
+            <summary>
+            If set to `true`, the server will attempt to filter out profanities, replacing all but the initial character
+            in each filtered word with asterisks, e.g. "f***". If set to `false` or omitted, profanities won't be
+            filtered out.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.SampleRateHertz">
+            <summary>
+            Sample rate in Hertz of the audio data sent in all `RecognitionAudio` messages. Valid values are:
+            8000-48000. 16000 is optimal. For best results, set the sampling rate of the audio source to 16000 Hz. If
+            that's not possible, use the native sample rate of the audio source (instead of re-sampling). This field is
+            optional for FLAC and WAV audio files, but is required for all other audio formats. For details, see
+            AudioEncoding.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.SpeechContexts">
+            <summary>
+            Array of SpeechContext. A means to provide context to assist the speech recognition. For more information,
+            see [speech adaptation](https://cloud.google.com/speech-to-text/docs/adaptation).
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.UseEnhanced">
+            <summary>
+            Set to true to use an enhanced model for speech recognition. If `use_enhanced` is set to true and the
+            `model` field is not set, then an appropriate enhanced model is chosen if an enhanced model exists for the
+            audio. If `use_enhanced` is true and an enhanced version of the specified model does not exist, then the
+            speech is recognized using the standard version of the specified model.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionConfig.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.RecognitionMetadata">
+            <summary>Description of audio data to be recognized.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionMetadata.AudioTopic">
+            <summary>Description of the content. Eg. "Recordings of federal supreme court hearings from 2012".</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionMetadata.IndustryNaicsCodeOfAudio">
+            <summary>
+            The industry vertical to which this speech recognition request most closely applies. This is most indicative
+            of the topics contained in the audio. Use the 6-digit NAICS code to identify the industry vertical - see
+            https://www.naics.com/search/.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionMetadata.InteractionType">
+            <summary>The use case most closely describing the audio content to be recognized.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionMetadata.MicrophoneDistance">
+            <summary>The audio type that most closely describes the audio being recognized.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionMetadata.OriginalMediaType">
+            <summary>The original media the speech was recorded on.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionMetadata.OriginalMimeType">
+            <summary>
+            Mime type of the original audio file. For example `audio/m4a`, `audio/x-alaw-basic`, `audio/mp3`,
+            `audio/3gpp`. A list of possible audio mime types is maintained at
+            http://www.iana.org/assignments/media-types/media-types.xhtml#audio
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionMetadata.RecordingDeviceName">
+            <summary>
+            The device used to make the recording. Examples 'Nexus 5X' or 'Polycom SoundStation IP 6000' or 'POTS' or
+            'VoIP' or 'Cardioid Microphone'.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionMetadata.RecordingDeviceType">
+            <summary>The type of device the speech was recorded with.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognitionMetadata.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.RecognizeRequest">
+            <summary>The top-level message sent by the client for the `Recognize` method.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognizeRequest.Audio">
+            <summary>Required. The audio data to be recognized.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognizeRequest.Config">
+            <summary>
+            Required. Provides information to the recognizer that specifies how to process the request.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognizeRequest.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.RecognizeResponse">
+            <summary>
+            The only message returned to the client by the `Recognize` method. It contains the result as zero or more
+            sequential `SpeechRecognitionResult` messages.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognizeResponse.Results">
+            <summary>Sequential list of transcription results corresponding to sequential portions of audio.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognizeResponse.TotalBilledTime">
+            <summary>When available, billed audio seconds for the corresponding request.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.RecognizeResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.SpeakerDiarizationConfig">
+            <summary>Config to enable speaker diarization.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeakerDiarizationConfig.EnableSpeakerDiarization">
+            <summary>
+            If 'true', enables speaker detection for each recognized word in the top alternative of the recognition
+            result using a speaker_tag provided in the WordInfo.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeakerDiarizationConfig.MaxSpeakerCount">
+            <summary>
+            Maximum number of speakers in the conversation. This range gives you more flexibility by allowing the system
+            to automatically determine the correct number of speakers. If not set, the default value is 6.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeakerDiarizationConfig.MinSpeakerCount">
+            <summary>
+            Minimum number of speakers in the conversation. This range gives you more flexibility by allowing the system
+            to automatically determine the correct number of speakers. If not set, the default value is 2.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeakerDiarizationConfig.SpeakerTag">
+            <summary>Output only. Unused.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeakerDiarizationConfig.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.SpeechAdaptation">
+            <summary>Speech adaptation configuration.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechAdaptation.CustomClasses">
+            <summary>
+            A collection of custom classes. To specify the classes inline, leave the class' `name` blank and fill in the
+            rest of its fields, giving it a unique `custom_class_id`. Refer to the inline defined class in phrase hints
+            by its `custom_class_id`.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechAdaptation.PhraseSetReferences">
+            <summary>A collection of phrase set resource names to use.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechAdaptation.PhraseSets">
+            <summary>
+            A collection of phrase sets. To specify the hints inline, leave the phrase set's `name` blank and fill in
+            the rest of its fields. Any phrase set can use any custom class.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechAdaptation.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.SpeechContext">
+            <summary>Provides "hints" to the speech recognizer to favor specific words and phrases in the results.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechContext.Boost">
+            <summary>
+            Hint Boost. Positive value will increase the probability that a specific phrase will be recognized over
+            other similar sounding phrases. The higher the boost, the higher the chance of false positive recognition as
+            well. Negative boost values would correspond to anti-biasing. Anti-biasing is not enabled, so negative boost
+            will simply be ignored. Though `boost` can accept a wide range of positive values, most use cases are best
+            served with values between 0 and 20. We recommend using a binary search approach to finding the optimal
+            value for your use case.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechContext.Phrases">
+            <summary>
+            A list of strings containing words and phrases "hints" so that the speech recognition is more likely to
+            recognize them. This can be used to improve the accuracy for specific words and phrases, for example, if
+            specific commands are typically spoken by the user. This can also be used to add additional words to the
+            vocabulary of the recognizer. See [usage limits](https://cloud.google.com/speech-to-text/quotas#content).
+            List items can also be set to classes for groups of words that represent common concepts that occur in
+            natural language. For example, rather than providing phrase hints for every month of the year, using the
+            $MONTH class improves the likelihood of correctly transcribing audio that includes months.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechContext.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.SpeechRecognitionAlternative">
+            <summary>Alternative hypotheses (a.k.a. n-best list).</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechRecognitionAlternative.Confidence">
+            <summary>
+            The confidence estimate between 0.0 and 1.0. A higher number indicates an estimated greater likelihood that
+            the recognized words are correct. This field is set only for the top alternative of a non-streaming result
+            or, of a streaming result where `is_final=true`. This field is not guaranteed to be accurate and users
+            should not rely on it to be always provided. The default of 0.0 is a sentinel value indicating `confidence`
+            was not set.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechRecognitionAlternative.Transcript">
+            <summary>Transcript text representing the words that the user spoke.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechRecognitionAlternative.Words">
+            <summary>
+            A list of word-specific information for each recognized word. Note: When `enable_speaker_diarization` is
+            true, you will see all the words from the beginning of the audio.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechRecognitionAlternative.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.SpeechRecognitionResult">
+            <summary>A speech recognition result corresponding to a portion of the audio.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechRecognitionResult.Alternatives">
+            <summary>
+            May contain one or more recognition hypotheses (up to the maximum specified in `max_alternatives`). These
+            alternatives are ordered in terms of accuracy, with the top (first) alternative being the most probable, as
+            ranked by the recognizer.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechRecognitionResult.ChannelTag">
+            <summary>
+            For multi-channel audio, this is the channel number corresponding to the recognized result for the audio
+            from that channel. For audio_channel_count = N, its output values can range from '1' to 'N'.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechRecognitionResult.LanguageCode">
+            <summary>
+            Output only. The [BCP-47](https://www.rfc-editor.org/rfc/bcp/bcp47.txt) language tag of the language in this
+            result. This language code was detected to have the most likelihood of being spoken in the audio.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechRecognitionResult.ResultEndTime">
+            <summary>Time offset of the end of this result relative to the beginning of the audio.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.SpeechRecognitionResult.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.Status">
+            <summary>
+            The `Status` type defines a logical error model that is suitable for different programming environments,
+            including REST APIs and RPC APIs. It is used by [gRPC](https://github.com/grpc). Each `Status` message contains
+            three pieces of data: error code, error message, and error details. You can find out more about this error model
+            and how to work with it in the [API Design Guide](https://cloud.google.com/apis/design/errors).
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.Status.Code">
+            <summary>The status code, which should be an enum value of google.rpc.Code.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.Status.Details">
+            <summary>
+            A list of messages that carry the error details. There is a common set of message types for APIs to use.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.Status.Message">
+            <summary>
+            A developer-facing error message, which should be in English. Any user-facing error message should be
+            localized and sent in the google.rpc.Status.details field, or localized by the client.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.Status.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.TranscriptOutputConfig">
+            <summary>Specifies an optional destination for the recognition results.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.TranscriptOutputConfig.GcsUri">
+            <summary>
+            Specifies a Cloud Storage URI for the recognition results. Must be specified in the format:
+            `gs://bucket_name/object_name`, and the bucket must already exist.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.TranscriptOutputConfig.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.Speech.v1.Data.WordInfo">
+            <summary>Word-specific information for recognized words.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.WordInfo.Confidence">
+            <summary>
+            The confidence estimate between 0.0 and 1.0. A higher number indicates an estimated greater likelihood that
+            the recognized words are correct. This field is set only for the top alternative of a non-streaming result
+            or, of a streaming result where `is_final=true`. This field is not guaranteed to be accurate and users
+            should not rely on it to be always provided. The default of 0.0 is a sentinel value indicating `confidence`
+            was not set.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.WordInfo.EndTime">
+            <summary>
+            Time offset relative to the beginning of the audio, and corresponding to the end of the spoken word. This
+            field is only set if `enable_word_time_offsets=true` and only in the top hypothesis. This is an experimental
+            feature and the accuracy of the time offset can vary.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.WordInfo.SpeakerTag">
+            <summary>
+            Output only. A distinct integer value is assigned for every speaker within the audio. This field specifies
+            which one of those speakers was detected to have spoken this word. Value ranges from '1' to
+            diarization_speaker_count. speaker_tag is set if enable_speaker_diarization = 'true' and only in the top
+            alternative.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.WordInfo.StartTime">
+            <summary>
+            Time offset relative to the beginning of the audio, and corresponding to the start of the spoken word. This
+            field is only set if `enable_word_time_offsets=true` and only in the top hypothesis. This is an experimental
+            feature and the accuracy of the time offset can vary.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.WordInfo.Word">
+            <summary>The word corresponding to this set of information.</summary>
+        </member>
+        <member name="P:Google.Apis.Speech.v1.Data.WordInfo.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,147 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using System.Speech.Synthesis;
+
+namespace Muzamil_Khan_Operating_System_Project
+{
+    public partial class Form1 : Form
+    {
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+
+        private static extern IntPtr CreateRoundRectRgn
+            (
+            int nLeftRect,
+            int nTopRect,
+            int RightRect,
+            int nBottomRect,
+            int nWidthEllipse,
+            int nHeightEllipse
+            );
+
+        //SpeechSynthesizer Class Provides access to the functionality of an installed a speech synthesis engine.   
+        SpeechSynthesizer speechSynthesizerObj;   
+
+        public Form1()
+        {
+            InitializeComponent();
+
+            speechSynthesizerObj = new SpeechSynthesizer();
+
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
+            prograssbar1.Value = 0;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            label2.Visible = false;
+            label3.Visible = false;
+            label4.Visible = false;
+            label5.Visible = false;
+            label6.Visible = false;
+            label7.Visible = false;
+            label8.Visible = false;
+            label9.Visible = false;
+            label10.Visible = false;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            prograssbar1.Value += 1;
+            prograssbar1.Text = prograssbar1.Value.ToString() + "%";
+
+            if (prograssbar1.Value == 3)
+            {
+                label2.Visible = true;
+
+                //speechSynthesizerObj.Dispose();
+                //speechSynthesizerObj = new SpeechSynthesizer();
+                ////Asynchronously speaks the contents present in RichTextBox1   
+                //speechSynthesizerObj.SpeakAsync(label11.Text);
+            }
+
+            if (prograssbar1.Value == 15)
+            {
+                label3.Visible = true;
+            }
+
+            if (prograssbar1.Value == 25)
+            {
+                label5.Visible = true;
+            }
+
+            if (prograssbar1.Value == 35)
+            {
+                label4.Visible = true;
+            }
+
+            if (prograssbar1.Value == 47)
+            {
+                label5.Visible = true;
+            }
+
+            if (prograssbar1.Value == 54)
+            {
+                label6.Visible = true;
+            }
+
+            if (prograssbar1.Value == 68)
+            {
+                label7.Visible = true;
+            }
+
+            if (prograssbar1.Value == 80)
+            {
+                label8.Visible = true;
+            }
+
+            if (prograssbar1.Value == 90)
+            {
+                label10.Visible = true;
+            }
+
+            if (prograssbar1.Value == 100)
+            {
+                //foreach (var v in speechSynthesizerObj.GetInstalledVoices().Select(v => v.VoiceInfo))
+                //{
+                //    Console.WriteLine("Name:{0}, Gender:{1}, Age:{2}", v.Description, v.Gender, v.Age);
+                //}
+
+                //speechSynthesizerObj.SelectVoiceByHints(VoiceGender.Female, VoiceAge.Child);
+
+                //speechSynthesizerObj.SetOutputToDefaultAudioDevice();
+
+                //PromptBuilder builder = new PromptBuilder();
+                //builder.AppendText("Welcome To VA Soft Operating System");
+                //speechSynthesizerObj.Speak(builder);
+
+                label2.Visible = false;
+                label3.Visible = false;
+                label4.Visible = false;
+                label5.Visible = false;
+                label6.Visible = false;
+                label7.Visible = false;
+                label8.Visible = false;
+                label10.Visible = false;
+
+                label9.Visible = true;
+                timer1.Enabled = false;
+
+                if (timer1.Enabled == false)
+                {
+                    this.Hide();
+                    var Frmlog = new formLogin();
+                    Frmlog.Closed += (s, args) => this.Close();
+                    Frmlog.Show();
+                }
+            }
+        }
+    }
+}
